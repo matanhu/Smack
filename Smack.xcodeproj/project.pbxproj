@@ -19,6 +19,7 @@
 		D3BC3E4021472DD900D27C16 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC3E3F21472DD900D27C16 /* Constants.swift */; };
 		D3BC3E422147328600D27C16 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC3E412147328600D27C16 /* LoginVC.swift */; };
 		D3BC3E442147C92400D27C16 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC3E432147C92400D27C16 /* CreateAccountVC.swift */; };
+		D3BC3E472147E19F00D27C16 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC3E462147E19F00D27C16 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		D3BC3E3F21472DD900D27C16 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D3BC3E412147328600D27C16 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D3BC3E432147C92400D27C16 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		D3BC3E462147E19F00D27C16 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		D37EEC6B21467713003A1745 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				D3BC3E452147E17E00D27C16 /* Services */,
 				D3BC3E3E21472DA800D27C16 /* Utilities */,
 				D3BC3E372146859400D27C16 /* Model */,
 				D3BC3E362146858F00D27C16 /* View */,
@@ -148,6 +151,14 @@
 				D3BC3E3F21472DD900D27C16 /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D3BC3E452147E17E00D27C16 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D3BC3E462147E19F00D27C16 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +283,7 @@
 				D3BC3E3B214685C900D27C16 /* ChannelVC.swift in Sources */,
 				D3BC3E39214685B700D27C16 /* ChatVC.swift in Sources */,
 				D3BC3E442147C92400D27C16 /* CreateAccountVC.swift in Sources */,
+				D3BC3E472147E19F00D27C16 /* AuthService.swift in Sources */,
 				D3BC3E422147328600D27C16 /* LoginVC.swift in Sources */,
 				D3BC3E3D2146A79600D27C16 /* GradientView.swift in Sources */,
 				D37EEC6D21467713003A1745 /* AppDelegate.swift in Sources */,
