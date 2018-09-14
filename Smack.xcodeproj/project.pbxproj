@@ -24,6 +24,7 @@
 		D3BC3E4B21485E1000D27C16 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC3E4A21485E1000D27C16 /* UserDataService.swift */; };
 		D3BC3E4D2149875500D27C16 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC3E4C2149875500D27C16 /* AvatarPickerVC.swift */; };
 		D3BC3E4F214988D200D27C16 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC3E4E214988D200D27C16 /* AvatarCell.swift */; };
+		D3BC3E51214BDF1B00D27C16 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC3E50214BDF1B00D27C16 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		D3BC3E4A21485E1000D27C16 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		D3BC3E4C2149875500D27C16 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		D3BC3E4E214988D200D27C16 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		D3BC3E50214BDF1B00D27C16 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				D3BC3E3C2146A79600D27C16 /* GradientView.swift */,
 				D3BC3E482147EAF900D27C16 /* RoundedButton.swift */,
 				D3BC3E4E214988D200D27C16 /* AvatarCell.swift */,
+				D3BC3E50214BDF1B00D27C16 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				D3BC3E3B214685C900D27C16 /* ChannelVC.swift in Sources */,
 				D3BC3E4D2149875500D27C16 /* AvatarPickerVC.swift in Sources */,
 				D3BC3E492147EAF900D27C16 /* RoundedButton.swift in Sources */,
+				D3BC3E51214BDF1B00D27C16 /* CircleImage.swift in Sources */,
 				D3BC3E39214685B700D27C16 /* ChatVC.swift in Sources */,
 				D3BC3E4B21485E1000D27C16 /* UserDataService.swift in Sources */,
 				D3BC3E442147C92400D27C16 /* CreateAccountVC.swift in Sources */,
