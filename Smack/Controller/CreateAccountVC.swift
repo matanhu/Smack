@@ -40,7 +40,7 @@ class CreateAccountVC: UIViewController {
 
     @IBAction func createAccountPressed(_ sender: Any) {
         spinner.isHidden = false
-        spinner.stopAnimating()
+        spinner.startAnimating()
         
         guard let name = usernameTxt.text , usernameTxt.text != "" else { return }
         guard let email = emailTxt.text , emailTxt.text != "" else { return }
