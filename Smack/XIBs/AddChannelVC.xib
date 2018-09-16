@@ -12,7 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddChannelVC" customModule="Smack" customModuleProvider="target">
             <connections>
                 <outlet property="bgView" destination="s7y-oT-8Yt" id="pu5-KA-6Lv"/>
-                <outlet property="chanDessc" destination="QJa-S6-ahs" id="pUo-JP-fcv"/>
+                <outlet property="chanDesc" destination="QJa-S6-ahs" id="3I7-Ok-Uxd"/>
                 <outlet property="nameTxt" destination="wtl-sk-TZH" id="TVb-PK-7MV"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
