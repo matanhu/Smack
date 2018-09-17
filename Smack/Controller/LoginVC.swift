@@ -41,6 +41,9 @@ class LoginVC: UIViewController {
                         self.dismiss(animated: true, completion: nil)
                     }
                 })
+                MessageService.instance.findAllChannel(completion: { (success) in
+                    
+                })
             } else {
                 self.spinner.isHidden = true
             }
