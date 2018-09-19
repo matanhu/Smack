@@ -33,6 +33,7 @@
 		D3BC3E5F214DA54F00D27C16 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC3E5D214DA54F00D27C16 /* AddChannelVC.swift */; };
 		D3BC3E60214DA54F00D27C16 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3BC3E5E214DA54F00D27C16 /* AddChannelVC.xib */; };
 		D3BC3E62214EF1C700D27C16 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC3E61214EF1C700D27C16 /* SocketService.swift */; };
+		D3BC3E642152F47F00D27C16 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC3E632152F47F00D27C16 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		D3BC3E5D214DA54F00D27C16 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		D3BC3E5E214DA54F00D27C16 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		D3BC3E61214EF1C700D27C16 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		D3BC3E632152F47F00D27C16 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				D3BC3E59214D094F00D27C16 /* Channel.swift */,
+				D3BC3E632152F47F00D27C16 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				D3BC3E3B214685C900D27C16 /* ChannelVC.swift in Sources */,
 				D3BC3E4D2149875500D27C16 /* AvatarPickerVC.swift in Sources */,
 				D3BC3E492147EAF900D27C16 /* RoundedButton.swift in Sources */,
+				D3BC3E642152F47F00D27C16 /* Message.swift in Sources */,
 				D3BC3E5A214D094F00D27C16 /* Channel.swift in Sources */,
 				D3BC3E51214BDF1B00D27C16 /* CircleImage.swift in Sources */,
 				D3BC3E39214685B700D27C16 /* ChatVC.swift in Sources */,
